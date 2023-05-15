@@ -220,8 +220,9 @@ class Cal():
                 period_end = dt.date(y-1, 12, 31)
             
             else:
+            # 每年的9月 - 12月都可以获得本年的半年报数据
                 period_end = dt.date(y, 6, 30)
-                
+            
         return period_end    
 
     def get_dates_vectorize(self, tds, fun, params):
