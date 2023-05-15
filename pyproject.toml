@@ -1,0 +1,7 @@
+[project]
+name = 'TradeCalCN'
+version = '0.0.3'
+dependencies = [
+"baostock",
+"Pandas",
+]
