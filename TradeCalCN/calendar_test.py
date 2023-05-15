@@ -222,15 +222,6 @@ class Cal():
             else:
             # 每年的9月 - 12月都可以获得本年的半年报数据
                 period_end = dt.date(y, 6, 30)
-        
-        elif freq == 'M':
-            # 在每年的4月第一个交易日之前无法获得上一年的四季报，只有上一年的三季报
-            if td <= get_tdc(dt.date(y, 4, 1),0):
-                period_end = dt.date(y-1, 9, 30)
-            
-            # 在每年的
-            elif td <=   
-            
             
         return period_end    
 
