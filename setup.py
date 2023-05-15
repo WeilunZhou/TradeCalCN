@@ -7,5 +7,6 @@ setup(
     author='WeilunZhou',
     author_email='3227740026@qq.com',
     packages=['TradeCalCN'],
-    install_requires=[],
+    install_requires=['baostock>=0.8.8'],
+    python_requires='>=3.7'
 )
